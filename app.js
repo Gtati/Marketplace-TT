@@ -46,7 +46,7 @@ btnMarket.addEventListener("click", () => {
   if (cartProducts.length === 0) {
     Swal.fire({
       icon: "info",
-      title: "Aún no has añadido productos al carrito de compras",
+      title: "Tu carrito de compras esta vacio",
     });
   } else {
     containerShop.classList.toggle("show");

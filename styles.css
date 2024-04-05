@@ -41,9 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10rem;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    padding-top: 1rem;
   }
 
   .title > h1 {
@@ -75,7 +73,6 @@
     width: 100%;
     height: 100%;
     background-color: #1e8ad9;
-    border-top: 2px solid white;
     border-bottom: 2px solid white;
     display: flex;
     justify-content: center;
@@ -83,12 +80,19 @@
   }
 
   .sectionCarts {
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background: linear-gradient(#B3DAF6, #46a6ea);
+    border-radius: 7px;
+    border: solid 2px #46a6ea;
   }
 
   .cart {
-    width: 9rem;
-    height: 23rem;
+    width: 10rem;
+    height: 16rem;
     background: linear-gradient(#B3DAF6, #46a6ea);
     color: white;
     border: 4px solid #ffffff;
@@ -124,7 +128,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #B3DAF6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,13 +137,13 @@
   #modal {
     width: 70%;
     height: 50rem;
-    background-color: black;
-    color: white;
+    background-color: #B3DAF6;
+    color: black;
     padding: 20px;
     border-radius: 1rem;
     margin-left: 3rem;
     margin-top: 2rem;
-    border: 2px solid black;
+    border: 2px solid white;
   }
 
   .close-modal {
@@ -148,6 +152,12 @@
     right: 10px;
     font-size: 2rem;
     cursor: pointer;
+    width: 2.5rem;
+    height:2.5rem;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    border-radius: 4px;
   }
 
   .img-modal {
@@ -191,7 +201,7 @@
   }
 
   .containerShop-title {
-    color: #000000;
+    color: white;
     font-weight: bold;
     font-size: 17px;
   }
@@ -243,11 +253,10 @@
   .btn-market {
     background-color: transparent;
     border: none;
+    cursor: pointer;
   }
 
-  .btn-market > img {
-    width: 2.3rem;
-  }
+  
 
   .containerShop {
     display: none;
@@ -270,7 +279,12 @@
   }
 
   .close-market {
-    width: 3rem;
+    width: 2.5rem;
+    height:2.5rem;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    border-radius: 4px;
   }
 
   .containerCopy {
